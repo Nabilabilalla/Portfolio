@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration:none; 
+}
+ img{
+     position: relative;
+     left:4%;
+     margin-top: 3%;
+     width: 4%;
+ }
+ .search{
+        border-radius: 3px;
+        height: 40px;
+        width: 441px;
+        border-radius: 3px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .go{
+        height: 41px;
+        width: 63px;
+        background: #000000;
+        border-radius: 3px;
+        color: white;
+    }
+    .menu{
+        display: flex;
+        margin-left: 9%;
+        margin-top: 2%;
+        font-size  : 1em;
+        text-indent: 10px;
+    }
+    a.pr{
+        text-indent: 80px;
+    }
+    .menu a{
+        color:rgb(48, 47, 47);
+    }
+    .sana{
+        display: flex;
+        margin-left: 8%;
+        margin-top: 1%;
+        text-indent: 10px;
+    }
+    .sana a{
+        color: slategrey;
+    }
+    .parti{
+        margin-left: 9%;
+        margin-top: 2%;
+        max-width: 40%;
+        line-height : 30px;
+    }
+    h1{
+        color: rgb(25, 0, 168);
+        font-size  : 1.2em;
+    }
+    .trait_dessus{
+        border-top: 1px  rgb(66, 65, 65);
+         width : 100%;
+         margin-top: 1%;
+    }
+   
+    .gris{
+        color: rgb(100, 100, 100);
+        margin-left: 10%;
+    }
+    #petit2{
+        margin-left: 55%;
+        margin-top: -22%;
+    }
+    #petit4{
+        margin-left: 55%;
+        margin-top: -17%;
+    }
+    #petit3{
+        margin-top: 2%;
+    }
+    .om{
+        font-size  : 0.7em;     
+    }
+    .na{
+        color: rgb(11, 0, 107);
+    }
+   
+

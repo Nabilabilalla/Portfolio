@@ -1,0 +1,374 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+* {
+  text-decoration: none;
+  margin: 3%;
+  margin-top: auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+header {
+  margin-top: -1%;
+  text-align: center;
+  background-image: url('./img/sm.webp');
+  background-size: cover;
+}
+
+/******************menu**************/
+
+.stage {
+  height: 350px;
+  width: 250px;
+  margin-left: 60%;
+  margin-right: auto;
+}
+
+.p {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -10%;
+  cursor: pointer;
+  width: 100%;
+  background: #5ecbdf;
+  border-radius: 10px;
+  font-family: Century Gothic;
+  letter-spacing: 2px;
+}
+
+.div {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 4%;
+  transition-duration: 0.2s;
+}
+
+#gallery {
+  width: 250px;
+  height: 40px;
+}
+
+.p:hover {
+  background: rgb(179, 176, 176);
+  color: black;
+}
+
+.div:nth-child(odd) {
+  transform: perspective(300px) rotateY(45deg);
+  box-shadow: -2px 2px 7px gray;
+}
+
+.div:nth-child(even) {
+  transform: perspective(300px) rotateY(-45deg);
+  box-shadow: 2px 2px 7px gray;
+}
+
+.div:hover {
+  transform: rotateY(0);
+  background: rgb(202, 202, 202);
+  color: black;
+  box-shadow: 0px 0px 0px;
+}
+/**************h1**************/
+h1{
+  margin-top: -8%;
+  margin-left: 12%;
+}
+
+/*****cv***************/
+
+.cv {
+  margin-top: -1%;
+  margin-left: 28%;
+  color: #0f0f0f;
+  font-size: 26px;
+}
+
+/******partie 2*****/
+
+.partie {
+  margin-top: 10%;
+}
+
+.left {
+  left: 15px;
+  top: 84%;
+  letter-spacing: 4px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+#gradient {
+  background: #000000;
+  background-image: linear-gradient(#9ac3ff 20%, #6881b8 20%, #b2b3b4 40%, #4d64a1 40%, #8c97b6 60%, #04054b 60%, #c5c5c5 80%,  #5ecbdf);
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+}
+
+#gradient:after {
+  content: "";
+  position: absolute;
+  background: #E9E2D0;
+  left: 50%;
+  margin-top: -67.5px;
+  margin-left: -270px;
+  padding-left: 20px;
+  border-radius: 5px;
+  width: 520px;
+  height: 275px;
+  z-index: -1;
+}
+
+#card {
+  position: absolute;
+  width: 450px;
+  height: 225px;
+  padding: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  left: 50%;
+  top: 75%;
+  margin-left: -250px;
+  background: #E9E2D0;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+}
+
+#card img {
+  width: 120px;
+  height: 80%;
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  filter: sepia(1);
+}
+
+#card h2 {
+  font-family: courier;
+  color: rgb(0, 55, 104);
+  margin-left: 50%;
+  padding: 0;
+  font-size: 15pt;
+}
+
+#card p {
+  font-family: courier;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-top: 4%;
+}
+
+#card span {
+  font-family: courier;
+}
+
+/*****************reseaux ss********************/
+
+.footer-social-links {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.footer-social-links a {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+  color: #111;
+}
+
+.footer-social-links a:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.footer-social-links a:hover {
+  color: #fff;
+}
+
+.footer-social-links a:hover:before {
+  background: #111;
+}
+/*************************partie*****************/
+.thing {
+  margin-top: 10%;
+  margin-left: 6%;
+  line-height:1.9em;
+  padding: 1rem;
+  width: 420px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+.prf{
+  color:#5ecbdf;
+}
+.thing:hover {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #5ecbdf;
+}
+
+.thing > :first-child {
+  margin-top: 0;
+}
+
+.thing > :last-child {
+  margin-bottom: 0;
+}
+
+.heading {
+  color: #fff;
+}
+/************************Compétences*************/
+#Compétences{
+  margin-left: 45%;
+  margin-top: -6%;
+ 
+   
+}
+/*********************************parcours*******************/
+.thingg {
+  margin-top: -52%;
+  margin-left: 50%;
+  padding: 2rem;
+  width: 420px;
+  line-height:2em;
+
+}
+
+/*************** formation*********/
+.thinge{
+  margin-top: -44%;
+  margin-left: 5%;
+  padding: 1.2rem;
+  width: 420px;
+  line-height:0.9em;
+
+}
+
+/********************img***********/
+#image img{
+  width: 20%;
+  margin-left: 36%;
+  margin-top:-10% ;
+}
+/***********************langue**********/
+#lang{
+  margin-top: 5% ;
+  margin-left: 40%;
+ 
+  
+}
+.h4{
+  position: relative;
+  z-index: 2;
+  font-size: 2em;
+  letter-spacing: 2px;
+
+}
+.h{
+  z-index: 2;
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-left: -30%;
+ 
+}
+h4:hover {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #5ecbdf;
+}
+/**************************réalisation*********************/
+
+.ribbon {
+  margin-top: 10%;
+  height: 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  /*border-top: 1px solid var(--light);*/
+  border-bottom: 1px solid var(--dark);
+  background-image: linear-gradient(#9ac3ff 20%, #6881b8 20%, #b2b3b4 40%, #4d64a1 40%, #8c97b6 60%, #04054b 60%, #c5c5c5 80%,  #5ecbdf);
+}
+
+
+.badge-space {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.badge {
+  margin-top: -6%;
+  margin-left: -10%;
+    --size: 210px;
+    --light: #fcfaed;
+    --dark: #d5d4ca;
+    align-self: center;
+    width: var(--size);
+    height: var(--size);
+    border-radius: var(--size);
+    z-index: 1;
+    background: url(http://www.donrafael.cl/en/images/bg-olivo.png) no-repeat center/cover, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkQALXrl37zwjigxhaWlpgNphAFmRElgVJAAAAUA+G2H7kfgAAAABJRU5ErkJggg=="), linear-gradient(90deg, var(--dark) 0%, var(--light) 45%, var(--light) 55%, var(--dark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(50,50,50, 0.2), inset 10px 0 20px var(--light), inset -2px 0 20px rgba(128,128,128,0.5);
+}
+a.ralis{
+  color: #2b97d6;
+  font-size: 23px;
+  text-align: center;
+  margin-top: -2%;
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 5px;
+
+}
+/***************footer********************/
+footer {
+  width: 84%;
+  height: 7%;
+  background: #A7B8BF;
+  color: white;
+  text-align: right;
+  position: absolute;
+margin-top: 9%;
+margin-left: 5.1%;
+
+ }
+ .footer{
+   
+ }
+

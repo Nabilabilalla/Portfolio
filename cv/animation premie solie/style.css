@@ -1,0 +1,106 @@
+body {
+    background: #ccc;
+}
+/*Notre jolie "fenetre"*/
+.window{
+    border: 8px solid #320;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 90px auto;
+    background: #579cb4;
+
+}
+#sun {
+    color: transparent;
+    position: absolute;
+    display: inline-block;
+    background: #fff435;
+    width: 60px;
+    height: 60px;
+    border-radius: 32px;
+    top: 0px;
+    right: 12px;
+}
+.cloud {
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+.cloud:before {
+content: '<span>&nbsp;</span>';
+color: transparent;
+position: relative;
+display: inline-block;
+background: #fff;
+width: 32px;
+height: 32px;
+border-radius: 16px;
+top: 20px;
+left: -16px;
+
+}
+.cloud:after {
+    content: '<span>&nbsp;</span>';
+    color: transparent;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    top: -32px;
+    left: 10px;
+}
+.bird {
+    display: inline-block;
+    position: relative;
+    color: #333;
+    font-size: 50px;
+    left: -60px;
+    top: 50px;
+    animation: myfirst 20s linear 10s infinite alternate;
+
+}
+
+.cloud{
+    animation-duration: 20s;
+    animation-name: cmondosomessing;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes cmondosomessing {
+    /*animation cmondosomessing*/
+    0% {
+        top:50px;
+        left:-50px;
+    }
+    12%{
+        top: 15px;
+    }
+    90%{
+        top: 19px;
+        left: 130px;
+    }
+}
+.bird{
+    animation-delay: 0s;
+    animation-name: fly;
+    animation-iteration-count: infinite;
+}
+@keyframes fly {
+    /*animation fly*/
+    0%   { left:0px; top:0px;}
+    25%  {left:130px; top:0px;}
+    50%  {left:130px; top: 10px;}
+    75%  { left:0px; top: 50px;}
+    100% {left:0px; top:0px;}
+
+}
+

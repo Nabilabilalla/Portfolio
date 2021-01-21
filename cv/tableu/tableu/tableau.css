@@ -1,0 +1,47 @@
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: rgb(0, 0, 0); /* Le texte de la page sera noir */
+}
+.semaine{
+    text-align: center;
+    background-color: white;
+}
+.gras{
+    font-weight:bolder;
+    background-color: rgb(146, 146, 146);
+}
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid #000000; /* auront une bordure de 1px */
+    text-align: center;
+    width: 80px;
+    padding: 2%;
+}
+th
+{
+    border: 1px solid black;
+}
+
+td:nth-child(1)
+{
+    background: rgb(146, 146, 146);
+}
+.spmo
+{
+    background-color: #a1d9e6;
+}
+.casse
+{
+    background-color: #6cf08f;  
+}
+table
+{
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    width: 500px;
+    margin: 200px 100px 100px 400px;
+    border: 1px solid white;
+}

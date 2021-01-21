@@ -1,0 +1,422 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#body {
+    max-width: 1000px;
+    padding: 0% 10% 0 10%;
+    list-style: none;
+}
+
+/*la barre violet*/
+
+.move {
+    width: 1200px;
+    height: 8px;
+    background: #4A3174;
+}
+/*menu */
+ul {
+    list-style:none;
+    margin-left:10;
+    padding-left:0;
+    }
+    li {
+    margin-bottom:15px;/* à adapter */
+    }
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:#4A3174;
+    border-radius: 10px;
+}
+
+.buttona {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 9%;
+    
+}
+
+.accueil {
+    color: #4A3174;
+}
+
+.a {
+    color: #c5c5c5;
+    margin-left: 5%;
+}
+
+.b {
+    color: #c5c5c5;
+    margin-left: 3%;
+}
+
+/*le boutton contact*/
+
+.cn {
+    width: 20%;
+    height: 50%;
+    margin-left: 120%;
+    margin-top: 0%;
+}
+
+.cn.connecte {
+    font-family: Roboto Condensed;
+    font-size: 17%;
+    text-align: center;
+}
+
+.cn .connecte {
+    color: #c5c5c5;
+}
+
+/*le boutton s'inscrire*/
+.se {
+    width: 20%;
+    height: 50px;
+    margin-left: 10%;
+
+}
+
+.inscrir {
+    font-family: Roboto Condensed;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.se {
+    background: #4A3174;
+    border-radius: 3px;
+}
+
+/*le logo*/
+
+img.grand {
+    display: flex;
+    width: 20%;
+    height: 60px;
+}
+
+#log {
+    display: flex;
+    margin-top: 10%;
+}
+
+/*le titre*/
+
+h1 {
+    margin-left: 7%;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 300%;
+    color: #4A3174;
+}
+
+/*le sou titre*/
+
+p {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120%;
+    color: #7A7A7A;
+}
+
+/*la barre de recherch*/
+
+#recherch {
+    display: flex;
+    margin-left: 360px;
+}
+
+.search {
+    height: 40px;
+    width: 190px;
+    border-radius: 3px;
+}
+
+.go {
+    height: 40px;
+    width: 50px;
+    background: #4A3174;
+    border-radius: 3px;
+    color: white;
+}
+
+/*le titre de la 3éme partie*/
+
+h2 {
+    font-family: Roboto, condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 25%;
+    margin-left: 10%;
+    color: #4A3174;
+}
+
+/*le livre jaune*/
+
+.liv {
+    margin-top: -10%;
+    margin-left: 0%;
+}
+
+/*les image de gride pour la partie 3*/
+
+.imag_grille {
+    display: flex;
+    width: 200px;
+    height: 280px;
+    margin: 10px;
+}
+
+/*pour mettre des grilles*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.container>div {
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.g1 {
+    grid-column-start: 1;
+    width: 95%;
+    height: 120%;
+}
+
+.g2 {
+    grid-column-start: 2;
+    width: 95%;
+    height: 120%;
+}
+
+.g3 {
+    grid-column-start: 3;
+    width: 95%;
+    height: 120%;
+}
+
+
+/*les titre et les sou titre d grilles partie 3*/
+
+.lien {
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 27px;
+    font-family: Roboto;
+    margin-left: 10px;
+}
+
+.lien2 {
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: -3px;
+    font-family: Roboto;
+    margin-left: 10px;
+    color: #222222;
+}
+
+.lien3 {
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 50px;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #4A3174;
+    opacity: 0.42;
+}
+
+/*les image d grilles partie 4*/
+
+.imag_petit {
+    width: 10%;
+    height: 100%;
+}
+
+/*les grid*/
+
+.wrapper {
+    display: grid;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-color: #222222;
+}
+
+/*les titres et les sous titre et le paragraph d grilles partie 4*/
+
+.txt1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    margin-top: -10%;
+    margin-left: 9%;
+    color: #222222;
+}
+
+.txt2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -100px;
+    margin-left: 9%;
+    color: #7A7A7A;
+}
+
+.txt3 {
+    width: 963px;
+    height: 106px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: -70px;
+    margin-left: 9%;
+    color: #CBCBCB;
+    max-width: 800px;
+}
+
+/*les grilles*/
+
+.wrapper>div {
+    padding: 0px 0px;
+    background-color: rgb(247, 247, 247);
+    margin: 10px;
+    width: 130%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.wrapper  div:hover{
+   width: 132%;
+}
+span:hover{
+    color: rgb(234, 184, 8);
+}
+
+/*changer la couleur des € */
+
+.euro {
+    color: rgb(234, 184, 8);
+}
+
+.euro2 {
+    color: #4A3174;
+    opacity: 0.42;
+    position: absolute;
+    top: 0%;
+    left: 280%;
+}
+
+/*le pied de page */
+
+footer {
+    width: 1200px;
+    height: 320px;
+    background: #4A3174;
+    margin-left: -13%;
+}
+
+/*le logo de pied de page */
+
+.imag_logo {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+/*la couleur de pied de page*/
+
+.pied li:hover {
+    background: #7a5cad;
+}
+
+/*le titre de pied de page*/
+
+.titre {
+    display: flex;
+    margin-left: 22%;
+    margin-top: -3%;
+    color: #F2F2F2;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/*les lien de footer*/
+
+.pied {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.lienn {
+    list-style-type: none;
+    position: absolute;
+    left: 200px;
+    color: #F2F2F2;
+}
+
+.pied1 {
+    list-style-type: none;
+    position: absolute;
+    left: 500px;
+    color: #F2F2F2;
+}
+
+.pied2 {
+    list-style-type: none;
+    position: absolute;
+    left: 900px;
+    color: #F2F2F2;
+}
+
+/*pour le responsif est dans le fichie responsif.css*/

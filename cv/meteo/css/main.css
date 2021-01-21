@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+
+    font-size: 14px;
+    
+}
+body {
+    padding: 0 200px;
+    background-image: url(https://www.petitfute.com/medias/mag/11824/835/8554-cuba-cuba-par-la-mer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.h1 {
+    font-size: 1.8em;
+    padding: 1em 0;
+    background-color: rgb(255, 255, 255);
+    color:#111;
+    align-items: center;
+    min-height: 1vh;
+    font-family: "baloo thambl", cursive;
+    border-radius: 20px;
+    text-align: center ;
+    
+    
+
+    
+
+}
+.wow {
+    font-size: 3rem;
+    font-style: italic;
+    background-color:  rgb(186, 204, 219);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    color: cornsilk;
+    border-radius: 30px;
+    
+
+
+}
+.san{
+    font-size: 3rem;
+    font-style: italic;
+    background-color: rgb(168, 173, 197);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    color: cornsilk;
+    border-radius: 30px;
+}
+.bar{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-control{
+    float: right;
+   
+}
+.form-control{
+   
+    background-color: #d2e5ff;
+    width: 200px;
+    border: 6px solid #FFF;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+    img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        animation: mymove 20s infinite;
+      }
+      
+      @keyframes mymove {
+        from {left: 0px;}
+        to {left: 800px;}
+      }
+
+
